@@ -1,0 +1,14 @@
+﻿@model Lab2.Models.Model
+@{
+    ViewData["Title"] = "Result";
+}
+
+<div class="text-left">
+    <h1 class="display-4">Dane z formularza</h1>
+    @Html.DisplayNameFor(model => model.Name):          @Html.DisplayFor(model => model.Name)
+    <br />
+    @Html.DisplayNameFor(model => model.Days):   @Html.DisplayFor(model => model.Days)
+    <br />
+    @Html.DisplayNameFor(model => model.Leap):     @Html.DisplayFor(model => model.Leap)
+</div>
+<br />
